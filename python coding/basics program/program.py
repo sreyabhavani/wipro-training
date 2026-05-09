@@ -1,11 +1,11 @@
-"""
+ """
 Date :22-4-2026
 desc: learning various if stmt formats
 """
 #program
 '''
 num1= int(input('Enter a number'))
-num2=int(input('Enter second number'))
+num2=int(in put('Enter second number'))
 
 if num1==num2:
     print('both are equal')
