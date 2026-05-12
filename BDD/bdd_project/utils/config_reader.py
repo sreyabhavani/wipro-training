@@ -55,3 +55,5 @@ class ConfigReader:
         )
         logger.info(f"Headless mode : {headless}")
         return headless
+
+

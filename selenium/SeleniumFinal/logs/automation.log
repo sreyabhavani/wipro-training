@@ -1,0 +1,108 @@
+2026-05-09 16:50:05,135 - INFO - =======================================
+2026-05-09 16:50:05,139 - INFO - STARTING TEST
+2026-05-09 16:50:05,140 - INFO - Reading Configuration
+2026-05-09 16:50:05,150 - INFO - Browser from config: 'edge'
+2026-05-09 16:50:05,150 - INFO - URL from config: https://www.saucedemo.com/
+2026-05-09 16:50:05,150 - INFO - Headless from config: false
+2026-05-09 16:50:07,932 - INFO - Opened Browser: <class 'selenium.webdriver.common.bidi.browser.Browser'>
+2026-05-09 16:50:08,816 - INFO - URL loaded : https://www.saucedemo.com/
+2026-05-09 16:50:08,818 - INFO - Login page opened
+2026-05-09 16:50:11,756 - INFO - Closing the browser: edge
+2026-05-09 16:50:11,757 - INFO - ENDING TEST
+2026-05-09 16:50:11,757 - INFO - ======================================
+2026-05-09 16:50:11,758 - INFO - =======================================
+2026-05-09 16:50:11,758 - INFO - STARTING TEST
+2026-05-09 16:50:11,758 - INFO - Reading Configuration
+2026-05-09 16:50:11,758 - INFO - Browser from config: 'edge'
+2026-05-09 16:50:11,759 - INFO - URL from config: https://www.saucedemo.com/
+2026-05-09 16:50:11,759 - INFO - Headless from config: false
+2026-05-09 16:50:17,015 - INFO - Opened Browser: <class 'selenium.webdriver.common.bidi.browser.Browser'>
+2026-05-09 16:50:17,865 - INFO - URL loaded : https://www.saucedemo.com/
+2026-05-09 16:50:17,866 - INFO - Login page opened
+2026-05-09 16:50:21,565 - INFO - Closing the browser: edge
+2026-05-09 16:50:21,565 - INFO - ENDING TEST
+2026-05-09 16:50:21,565 - INFO - ======================================
+2026-05-09 16:50:21,570 - INFO - =======================================
+2026-05-09 16:50:21,570 - INFO - STARTING TEST
+2026-05-09 16:50:21,570 - INFO - Reading Configuration
+2026-05-09 16:50:21,570 - INFO - Browser from config: 'edge'
+2026-05-09 16:50:21,571 - INFO - URL from config: https://www.saucedemo.com/
+2026-05-09 16:50:21,571 - INFO - Headless from config: false
+2026-05-09 16:50:24,222 - INFO - Opened Browser: <class 'selenium.webdriver.common.bidi.browser.Browser'>
+2026-05-09 16:50:24,940 - INFO - URL loaded : https://www.saucedemo.com/
+2026-05-09 16:50:24,941 - INFO - Login page opened
+2026-05-09 16:50:27,989 - INFO - Closing the browser: edge
+2026-05-09 16:50:27,989 - INFO - ENDING TEST
+2026-05-09 16:50:27,989 - INFO - ======================================
+2026-05-09 16:51:06,072 - INFO - =======================================
+2026-05-09 16:51:06,072 - INFO - STARTING TEST
+2026-05-09 16:51:06,072 - INFO - Reading Configuration
+2026-05-09 16:51:06,073 - INFO - Browser from config: 'edge'
+2026-05-09 16:51:06,073 - INFO - URL from config: https://www.saucedemo.com/
+2026-05-09 16:51:06,076 - INFO - Headless from config: false
+2026-05-09 16:51:07,847 - INFO - Opened Browser: <class 'selenium.webdriver.common.bidi.browser.Browser'>
+2026-05-09 16:51:08,614 - INFO - URL loaded : https://www.saucedemo.com/
+2026-05-09 16:51:08,615 - INFO - Login page opened
+2026-05-09 16:51:11,700 - INFO - Closing the browser: edge
+2026-05-09 16:51:11,700 - INFO - ENDING TEST
+2026-05-09 16:51:11,701 - INFO - ======================================
+2026-05-09 16:51:11,702 - INFO - =======================================
+2026-05-09 16:51:11,702 - INFO - STARTING TEST
+2026-05-09 16:51:11,702 - INFO - Reading Configuration
+2026-05-09 16:51:11,702 - INFO - Browser from config: 'edge'
+2026-05-09 16:51:11,702 - INFO - URL from config: https://www.saucedemo.com/
+2026-05-09 16:51:11,703 - INFO - Headless from config: false
+2026-05-09 16:51:13,576 - INFO - Opened Browser: <class 'selenium.webdriver.common.bidi.browser.Browser'>
+2026-05-09 16:51:14,337 - INFO - URL loaded : https://www.saucedemo.com/
+2026-05-09 16:51:14,338 - INFO - Login page opened
+2026-05-09 16:51:17,036 - INFO - Closing the browser: edge
+2026-05-09 16:51:17,036 - INFO - ENDING TEST
+2026-05-09 16:51:17,036 - INFO - ======================================
+2026-05-09 16:51:17,037 - INFO - =======================================
+2026-05-09 16:51:17,037 - INFO - STARTING TEST
+2026-05-09 16:51:17,037 - INFO - Reading Configuration
+2026-05-09 16:51:17,038 - INFO - Browser from config: 'edge'
+2026-05-09 16:51:17,038 - INFO - URL from config: https://www.saucedemo.com/
+2026-05-09 16:51:17,038 - INFO - Headless from config: false
+2026-05-09 16:51:18,994 - INFO - Opened Browser: <class 'selenium.webdriver.common.bidi.browser.Browser'>
+2026-05-09 16:51:19,766 - INFO - URL loaded : https://www.saucedemo.com/
+2026-05-09 16:51:19,767 - INFO - Login page opened
+2026-05-09 16:51:22,775 - INFO - Closing the browser: edge
+2026-05-09 16:51:22,775 - INFO - ENDING TEST
+2026-05-09 16:51:22,775 - INFO - ======================================
+2026-05-09 16:51:57,966 - INFO - =======================================
+2026-05-09 16:51:57,970 - INFO - STARTING TEST
+2026-05-09 16:51:57,970 - INFO - Reading Configuration
+2026-05-09 16:51:57,971 - INFO - Browser from config: 'edge'
+2026-05-09 16:51:57,972 - INFO - URL from config: https://www.saucedemo.com/
+2026-05-09 16:51:57,972 - INFO - Headless from config: false
+2026-05-09 16:51:59,822 - INFO - Opened Browser: <class 'selenium.webdriver.common.bidi.browser.Browser'>
+2026-05-09 16:52:00,612 - INFO - URL loaded : https://www.saucedemo.com/
+2026-05-09 16:52:00,614 - INFO - Login page opened
+2026-05-09 16:52:03,505 - INFO - Closing the browser: edge
+2026-05-09 16:52:03,505 - INFO - ENDING TEST
+2026-05-09 16:52:03,505 - INFO - ======================================
+2026-05-09 16:52:03,506 - INFO - =======================================
+2026-05-09 16:52:03,506 - INFO - STARTING TEST
+2026-05-09 16:52:03,506 - INFO - Reading Configuration
+2026-05-09 16:52:03,507 - INFO - Browser from config: 'edge'
+2026-05-09 16:52:03,507 - INFO - URL from config: https://www.saucedemo.com/
+2026-05-09 16:52:03,508 - INFO - Headless from config: false
+2026-05-09 16:52:06,343 - INFO - Opened Browser: <class 'selenium.webdriver.common.bidi.browser.Browser'>
+2026-05-09 16:52:07,178 - INFO - URL loaded : https://www.saucedemo.com/
+2026-05-09 16:52:07,179 - INFO - Login page opened
+2026-05-09 16:52:09,965 - INFO - Closing the browser: edge
+2026-05-09 16:52:09,965 - INFO - ENDING TEST
+2026-05-09 16:52:09,965 - INFO - ======================================
+2026-05-09 16:52:09,966 - INFO - =======================================
+2026-05-09 16:52:09,966 - INFO - STARTING TEST
+2026-05-09 16:52:09,966 - INFO - Reading Configuration
+2026-05-09 16:52:09,966 - INFO - Browser from config: 'edge'
+2026-05-09 16:52:09,967 - INFO - URL from config: https://www.saucedemo.com/
+2026-05-09 16:52:09,967 - INFO - Headless from config: false
+2026-05-09 16:52:11,700 - INFO - Opened Browser: <class 'selenium.webdriver.common.bidi.browser.Browser'>
+2026-05-09 16:52:12,458 - INFO - URL loaded : https://www.saucedemo.com/
+2026-05-09 16:52:12,459 - INFO - Login page opened
+2026-05-09 16:52:14,960 - INFO - Closing the browser: edge
+2026-05-09 16:52:14,960 - INFO - ENDING TEST
+2026-05-09 16:52:14,960 - INFO - ======================================

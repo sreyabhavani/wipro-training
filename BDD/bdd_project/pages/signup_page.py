@@ -2,26 +2,27 @@ import allure
 
 from locators.signup_locators import SignupLocators
 from utils.logger import LogGen
-from utils.screenshot_util import logger, ScreenshotUtil
+from utils.screenshot_util import ScreenshotUtil
 from utils.waits import WaitUtils
+
+logger = LogGen.loggen()
+
+
 class SignupPage:
-    def __init__(self,driver):
-        self.driver=driver
-        
-        
+    def __init__(self, driver):
+        self.driver = driver
+
     def click_signup_menu(self):
-        logger.info("Clicking Login Menu")
-        WaitUtils.wait_for_element_clickable(
-            self.driver, SignupLocators.SIGNUP_MENU
-        ).click()
+        logger.info("Clicking Sign Up Menu")
+        WaitUtils.wait_for_element_clickable(self.driver,  SignupLocators.SIGNUP_MENU ).click()
+
 
     def enter_username(self, username):
-        logger.info(
-            f"Entering Username : {username}")
-        element = WaitUtils.wait_for_element_visible(self.driver,SignupLocators.USERNAME_INPUT
-        )
+        logger.info(f"Entering Username : {username}"    )
+        element = WaitUtils.wait_for_element_visible( self.driver, SignupLocators.USERNAME_INPUT   )
         element.clear()
         element.send_keys(username)
+
 
     def enter_password(self, password):
         logger.info("Entering Password")
@@ -32,29 +33,18 @@ class SignupPage:
         element.clear()
         element.send_keys(password)
 
+
     def click_signup_button(self):
-        logger.info("Clicking Login Button")
-        WaitUtils.wait_for_element_clickable(
-            self.driver,
-            SignupLocators.SIGNUP_BUTTON
-        ).click()
+        logger.info("Clicking Sign up Button")
+        WaitUtils.wait_for_element_clickable( self.driver, SignupLocators.SIGNUP_BUTTON  ).click()
 
 
     def verify_successful_signup(self):
-        logger.info(
-            "Verifying Signup Alert"
-        )
-        alert = WaitUtils.wait_for_alert(
-            self.driver
-        )
+        logger.info(  "Verifying SignUp Alert"         )
+        alert = WaitUtils.wait_for_alert(  self.driver         )
         alert_text = alert.text
-        logger.info(
-            f"Alert Message : {alert_text}"
-        )
-        ScreenshotUtil.capture_screenshot(
-            self.driver,
-            "signup_alert"
-        )
+        logger.info(  f"Alert Message : {alert_text}"      )
+        ScreenshotUtil.capture_screenshot( self.driver, "signup_alert"        )
         allure.attach(
             self.driver.get_screenshot_as_png(),
             name="SignUp Alert Screenshot",

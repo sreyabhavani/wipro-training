@@ -1,7 +1,6 @@
 import logging
 import os
 
-
 class LogGen:
 
     @staticmethod

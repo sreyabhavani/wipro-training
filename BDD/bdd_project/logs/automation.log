@@ -79,3 +79,118 @@
 2026-05-08 17:09:34,666 - INFO - Allure Report Generated with status code : 1
 2026-05-08 17:09:34,666 - INFO - AUTOMATION EXECUTION COMPLETED
 2026-05-08 17:09:34,666 - INFO - ========================================
+2026-05-09 17:24:07,794 - INFO - Timeout fetched : 10
+2026-05-09 17:24:07,919 - INFO - ========================================
+2026-05-09 17:24:07,919 - INFO - STARTING SCENARIO : Successful Signup
+2026-05-09 17:24:07,919 - INFO - Browser fetched : Edge
+2026-05-09 17:24:07,919 - INFO - Base URL fetched : https://www.demoblaze.com/
+2026-05-09 17:24:07,919 - INFO - Implicit wait fetched : 5
+2026-05-09 17:24:07,919 - INFO - Headless mode : False
+2026-05-09 17:24:07,919 - INFO - Launching Edge Browser
+2026-05-09 17:24:12,091 - INFO - Browser Opened & Maximized Successfully
+2026-05-09 17:24:12,105 - INFO - Demoblaze URL loaded
+2026-05-09 17:24:12,108 - INFO - Step:Click Sign Up Menu
+2026-05-09 17:24:12,108 - INFO - Clicking Login Button
+2026-05-09 17:24:12,108 - INFO - Waiting for element clickable : ('xpath', "//button[text()='Sign up']")
+2026-05-09 17:24:22,158 - ERROR - Timeout waiting for clickable : ('xpath', "//button[text()='Sign up']")
+2026-05-09 17:24:22,322 - INFO - Scenario Status : Status.error
+2026-05-09 17:24:22,322 - INFO - SCENARIO PASSED : Successful Signup
+2026-05-09 17:24:24,906 - INFO - Browser Closed Successfully
+2026-05-09 17:24:24,907 - INFO - ========================================
+2026-05-09 18:06:29,269 - INFO - Timeout fetched : 10
+2026-05-09 18:06:29,275 - INFO - ========================================
+2026-05-09 18:06:29,275 - INFO - STARTING SCENARIO : Valid Login
+2026-05-09 18:06:29,275 - INFO - Browser fetched : edge
+2026-05-09 18:06:29,276 - INFO - Base URL fetched : https://www.demoblaze.com/
+2026-05-09 18:06:29,276 - INFO - Implicit wait fetched : 5
+2026-05-09 18:06:29,276 - INFO - Headless mode : False
+2026-05-09 18:06:29,276 - INFO - Launching Edge Browser
+2026-05-09 18:06:32,992 - INFO - Browser Opened & Maximized Successfully
+2026-05-09 18:06:32,997 - INFO - Scenario Status : Status.error
+2026-05-09 18:06:32,997 - INFO - SCENARIO PASSED : Valid Login
+2026-05-09 18:06:36,443 - INFO - Browser Closed Successfully
+2026-05-09 18:06:36,443 - INFO - ========================================
+2026-05-09 18:06:36,445 - INFO - ========================================
+2026-05-09 18:06:36,446 - INFO - STARTING SCENARIO : Invalid Login with incorrect credentials -- @1.1 
+2026-05-09 18:06:36,446 - INFO - Browser fetched : edge
+2026-05-09 18:06:36,447 - INFO - Base URL fetched : https://www.demoblaze.com/
+2026-05-09 18:06:36,447 - INFO - Implicit wait fetched : 5
+2026-05-09 18:06:36,447 - INFO - Headless mode : False
+2026-05-09 18:06:36,447 - INFO - Launching Edge Browser
+2026-05-09 18:06:39,552 - INFO - Browser Opened & Maximized Successfully
+2026-05-09 18:06:39,557 - INFO - Scenario Status : Status.error
+2026-05-09 18:06:39,557 - INFO - SCENARIO PASSED : Invalid Login with incorrect credentials -- @1.1 
+2026-05-09 18:06:42,156 - INFO - Browser Closed Successfully
+2026-05-09 18:06:42,156 - INFO - ========================================
+2026-05-09 18:06:42,157 - INFO - ========================================
+2026-05-09 18:06:42,157 - INFO - STARTING SCENARIO : Invalid Login with incorrect credentials -- @1.2 
+2026-05-09 18:06:42,157 - INFO - Browser fetched : edge
+2026-05-09 18:06:42,158 - INFO - Base URL fetched : https://www.demoblaze.com/
+2026-05-09 18:06:42,158 - INFO - Implicit wait fetched : 5
+2026-05-09 18:06:42,158 - INFO - Headless mode : False
+2026-05-09 18:06:42,158 - INFO - Launching Edge Browser
+2026-05-09 18:06:45,822 - INFO - Browser Opened & Maximized Successfully
+2026-05-09 18:06:45,884 - INFO - Scenario Status : Status.error
+2026-05-09 18:06:45,884 - INFO - SCENARIO PASSED : Invalid Login with incorrect credentials -- @1.2 
+2026-05-09 18:06:48,404 - INFO - Browser Closed Successfully
+2026-05-09 18:06:48,404 - INFO - ========================================
+2026-05-09 18:06:48,410 - INFO - ========================================
+2026-05-09 18:06:48,411 - INFO - STARTING SCENARIO : Invalid Login with incorrect credentials -- @1.3 
+2026-05-09 18:06:48,411 - INFO - Browser fetched : edge
+2026-05-09 18:06:48,411 - INFO - Base URL fetched : https://www.demoblaze.com/
+2026-05-09 18:06:48,411 - INFO - Implicit wait fetched : 5
+2026-05-09 18:06:48,411 - INFO - Headless mode : False
+2026-05-09 18:06:48,411 - INFO - Launching Edge Browser
+2026-05-09 18:06:51,925 - INFO - Browser Opened & Maximized Successfully
+2026-05-09 18:06:51,947 - INFO - Scenario Status : Status.error
+2026-05-09 18:06:51,947 - INFO - SCENARIO PASSED : Invalid Login with incorrect credentials -- @1.3 
+2026-05-09 18:06:54,305 - INFO - Browser Closed Successfully
+2026-05-09 18:06:54,306 - INFO - ========================================
+2026-05-09 18:06:54,310 - INFO - ========================================
+2026-05-09 18:06:54,310 - INFO - STARTING SCENARIO : Login with empty fields -- @1.1 
+2026-05-09 18:06:54,310 - INFO - Browser fetched : edge
+2026-05-09 18:06:54,310 - INFO - Base URL fetched : https://www.demoblaze.com/
+2026-05-09 18:06:54,310 - INFO - Implicit wait fetched : 5
+2026-05-09 18:06:54,310 - INFO - Headless mode : False
+2026-05-09 18:06:54,310 - INFO - Launching Edge Browser
+2026-05-09 18:06:57,766 - INFO - Browser Opened & Maximized Successfully
+2026-05-09 18:06:57,767 - INFO - Scenario Status : Status.error
+2026-05-09 18:06:57,768 - INFO - SCENARIO PASSED : Login with empty fields -- @1.1 
+2026-05-09 18:07:00,196 - INFO - Browser Closed Successfully
+2026-05-09 18:07:00,196 - INFO - ========================================
+2026-05-09 18:07:00,197 - INFO - ========================================
+2026-05-09 18:07:00,197 - INFO - STARTING SCENARIO : Login with empty fields -- @1.2 
+2026-05-09 18:07:00,198 - INFO - Browser fetched : edge
+2026-05-09 18:07:00,198 - INFO - Base URL fetched : https://www.demoblaze.com/
+2026-05-09 18:07:00,198 - INFO - Implicit wait fetched : 5
+2026-05-09 18:07:00,198 - INFO - Headless mode : False
+2026-05-09 18:07:00,198 - INFO - Launching Edge Browser
+2026-05-09 18:07:03,789 - INFO - Browser Opened & Maximized Successfully
+2026-05-09 18:07:03,790 - INFO - Scenario Status : Status.error
+2026-05-09 18:07:03,790 - INFO - SCENARIO PASSED : Login with empty fields -- @1.2 
+2026-05-09 18:07:06,109 - INFO - Browser Closed Successfully
+2026-05-09 18:07:06,109 - INFO - ========================================
+2026-05-09 18:07:06,110 - INFO - ========================================
+2026-05-09 18:07:06,110 - INFO - STARTING SCENARIO : Login with empty fields -- @1.3 
+2026-05-09 18:07:06,110 - INFO - Browser fetched : edge
+2026-05-09 18:07:06,110 - INFO - Base URL fetched : https://www.demoblaze.com/
+2026-05-09 18:07:06,110 - INFO - Implicit wait fetched : 5
+2026-05-09 18:07:06,110 - INFO - Headless mode : False
+2026-05-09 18:07:06,110 - INFO - Launching Edge Browser
+2026-05-09 18:07:09,765 - INFO - Browser Opened & Maximized Successfully
+2026-05-09 18:07:09,767 - INFO - Scenario Status : Status.error
+2026-05-09 18:07:09,767 - INFO - SCENARIO PASSED : Login with empty fields -- @1.3 
+2026-05-09 18:07:12,128 - INFO - Browser Closed Successfully
+2026-05-09 18:07:12,128 - INFO - ========================================
+2026-05-09 18:07:12,130 - INFO - ========================================
+2026-05-09 18:07:12,130 - INFO - STARTING SCENARIO : Logout functionality
+2026-05-09 18:07:12,130 - INFO - Browser fetched : edge
+2026-05-09 18:07:12,130 - INFO - Base URL fetched : https://www.demoblaze.com/
+2026-05-09 18:07:12,130 - INFO - Implicit wait fetched : 5
+2026-05-09 18:07:12,130 - INFO - Headless mode : False
+2026-05-09 18:07:12,130 - INFO - Launching Edge Browser
+2026-05-09 18:07:15,717 - INFO - Browser Opened & Maximized Successfully
+2026-05-09 18:07:15,722 - INFO - Scenario Status : Status.error
+2026-05-09 18:07:15,722 - INFO - SCENARIO PASSED : Logout functionality
+2026-05-09 18:07:18,530 - INFO - Browser Closed Successfully
+2026-05-09 18:07:18,530 - INFO - ========================================

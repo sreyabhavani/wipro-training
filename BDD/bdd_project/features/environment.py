@@ -6,8 +6,6 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.edge.options import Options as EdgeOptions
 
-import os
-
 logger = LogGen.loggen()
 
 def before_scenario(context, scenario):
@@ -84,3 +82,6 @@ def after_scenario(context, scenario):
     context.driver.quit()
     logger.info("Browser Closed Successfully")
     logger.info("========================================")
+
+
+

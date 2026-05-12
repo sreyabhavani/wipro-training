@@ -20,13 +20,6 @@ if os.path.exists("reports/allure-results"):
     shutil.rmtree("reports/allure-results")
 
 
-# Clean Old Allure Report
-if os.path.exists("reports/allure-report"):
-    logger.info(
-        "Deleting old allure-report folder"
-    )
-    shutil.rmtree("reports/allure-report")
-
 
 # Execute Behave Tests
 logger.info("Starting Behave Test Execution")

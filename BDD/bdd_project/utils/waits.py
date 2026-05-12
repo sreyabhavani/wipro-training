@@ -12,20 +12,14 @@ logger = LogGen.loggen()
 class WaitUtils:
 
     timeout_duration = ConfigReader.get_timeout()
-    @staticmethod
-    def wait_for_element_visible(
-            driver,
-            locator,
-            timeout=timeout_duration
-    ):
 
+    @staticmethod
+    def wait_for_element_visible(  driver, locator,   timeout=timeout_duration   ):
         try:
             logger.info(
                 f"Waiting for element visibility : {locator}"
             )
-            element = WebDriverWait(driver, timeout).until(
-                EC.visibility_of_element_located(locator)
-            )
+            element = WebDriverWait(driver, timeout).until( EC.visibility_of_element_located(locator) )
             logger.info(
                 f"Element visible successfully : {locator}"
             )
@@ -148,3 +142,4 @@ class WaitUtils:
                 f"Timeout waiting for invisibility : {locator}"
             )
             raise
+

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.14.4 on win32)" generated="2026-05-11T15:07:51.844255" rpa="false" schemaversion="5">
+<suite id="s1" name="Wipro traning" source="C:\Wipro traning">
+<suite id="s1-s1" name="Robot Framework" source="C:\Wipro traning\Robot Framework">
+<suite id="s1-s1-s1" name="RobotProject" source="C:\Wipro traning\Robot Framework\RobotProject">
+<suite id="s1-s1-s1-s1" name="Tests" source="C:\Wipro traning\Robot Framework\RobotProject\tests">
+<suite id="s1-s1-s1-s1-s1" name="Login" source="C:\Wipro traning\Robot Framework\RobotProject\tests\login.robot">
+<test id="s1-s1-s1-s1-s1-t1" name="Verify User Can Login Successfully" line="5">
+<kw name="Open Demoblaze Application">
+<kw name="Fail" owner="BuiltIn">
+<msg time="2026-05-11T15:07:52.068711" level="FAIL">Not Implemented</msg>
+<arg>Not Implemented</arg>
+<doc>Fails the test with the given message and optionally alters its tags.</doc>
+<status status="FAIL" start="2026-05-11T15:07:52.067917" elapsed="0.007703">Not Implemented</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:07:52.067002" elapsed="0.012508">Not Implemented</status>
+</kw>
+<kw name="Click Login Menu">
+<status status="NOT RUN" start="2026-05-11T15:07:52.079927" elapsed="0.001164"/>
+</kw>
+<kw name="Enter Login Username">
+<status status="NOT RUN" start="2026-05-11T15:07:52.082726" elapsed="0.001076"/>
+</kw>
+<kw name="Enter Login Password">
+<status status="NOT RUN" start="2026-05-11T15:07:52.085001" elapsed="0.001042"/>
+</kw>
+<kw name="Click Login Button">
+<status status="NOT RUN" start="2026-05-11T15:07:52.087222" elapsed="0.001106"/>
+</kw>
+<kw name="Validate Successful Login">
+<status status="NOT RUN" start="2026-05-11T15:07:52.089431" elapsed="0.000962"/>
+</kw>
+<kw name="Close Application">
+<status status="NOT RUN" start="2026-05-11T15:07:52.091650" elapsed="0.001116"/>
+</kw>
+<status status="FAIL" start="2026-05-11T15:07:52.060850" elapsed="0.033188">Not Implemented</status>
+</test>
+<status status="FAIL" start="2026-05-11T15:07:51.966200" elapsed="0.138769"/>
+</suite>
+<status status="FAIL" start="2026-05-11T15:07:51.962948" elapsed="0.149455"/>
+</suite>
+<status status="FAIL" start="2026-05-11T15:07:51.959318" elapsed="0.206897"/>
+</suite>
+<status status="FAIL" start="2026-05-11T15:07:51.955458" elapsed="0.213688"/>
+</suite>
+<status status="FAIL" start="2026-05-11T15:07:51.880902" elapsed="0.331972"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Wipro traning" id="s1" pass="0" fail="1" skip="0">Wipro traning</stat>
+<stat name="Robot Framework" id="s1-s1" pass="0" fail="1" skip="0">Wipro traning.Robot Framework</stat>
+<stat name="RobotProject" id="s1-s1-s1" pass="0" fail="1" skip="0">Wipro traning.Robot Framework.RobotProject</stat>
+<stat name="Tests" id="s1-s1-s1-s1" pass="0" fail="1" skip="0">Wipro traning.Robot Framework.RobotProject.Tests</stat>
+<stat name="Login" id="s1-s1-s1-s1-s1" pass="0" fail="1" skip="0">Wipro traning.Robot Framework.RobotProject.Tests.Login</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2026-05-11T15:07:51.968471" level="ERROR">Error in file 'C:\Wipro traning\Robot Framework\RobotProject\tests\login.robot' on line 2: Resource file '..\resources\keywords\login_keywords.robot' does not exist.</msg>
+</errors>
+</robot>
