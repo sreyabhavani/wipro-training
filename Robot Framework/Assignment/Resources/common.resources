@@ -1,0 +1,16 @@
+*** Settings ***
+Library    SeleniumLibrary
+
+*** Variables ***
+${URL}         https://www.saucedemo.com
+${BROWSER}     edge
+
+*** Keywords ***
+Open Browser To Login Page
+    Open Browser    ${URL}    ${BROWSER}
+    Maximize Browser Window
+    Set Selenium Speed    0.5s
+
+Close Browser Session
+    Run Keyword If Test Failed    Capture Page Screenshot
+    Close Browser

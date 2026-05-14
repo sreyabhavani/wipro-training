@@ -1,65 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.4.2 (Python 3.14.4 on win32)" generated="2026-05-11T15:07:51.844255" rpa="false" schemaversion="5">
+<robot generator="Robot 7.4.2 (Python 3.14.4 on win32)" generated="2026-05-12T15:39:15.402703" rpa="false" schemaversion="5">
 <suite id="s1" name="Wipro traning" source="C:\Wipro traning">
 <suite id="s1-s1" name="Robot Framework" source="C:\Wipro traning\Robot Framework">
-<suite id="s1-s1-s1" name="RobotProject" source="C:\Wipro traning\Robot Framework\RobotProject">
-<suite id="s1-s1-s1-s1" name="Tests" source="C:\Wipro traning\Robot Framework\RobotProject\tests">
-<suite id="s1-s1-s1-s1-s1" name="Login" source="C:\Wipro traning\Robot Framework\RobotProject\tests\login.robot">
-<test id="s1-s1-s1-s1-s1-t1" name="Verify User Can Login Successfully" line="5">
-<kw name="Open Demoblaze Application">
-<kw name="Fail" owner="BuiltIn">
-<msg time="2026-05-11T15:07:52.068711" level="FAIL">Not Implemented</msg>
-<arg>Not Implemented</arg>
-<doc>Fails the test with the given message and optionally alters its tags.</doc>
-<status status="FAIL" start="2026-05-11T15:07:52.067917" elapsed="0.007703">Not Implemented</status>
+<suite id="s1-s1-s1" name="Assignment" source="C:\Wipro traning\Robot Framework\Assignment">
+<suite id="s1-s1-s1-s1" name="Tests" source="C:\Wipro traning\Robot Framework\Assignment\Tests">
+<suite id="s1-s1-s1-s1-s1" name="Smoke Tests" source="C:\Wipro traning\Robot Framework\Assignment\Tests\smoke_tests.robot">
+<kw name="Open Browser To Login Page" type="SETUP">
+<msg time="2026-05-12T15:39:15.862324" level="FAIL">No keyword with name 'Open Browser To Login Page' found.</msg>
+<status status="FAIL" start="2026-05-12T15:39:15.861617" elapsed="0.001865">No keyword with name 'Open Browser To Login Page' found.</status>
 </kw>
-<status status="FAIL" start="2026-05-11T15:07:52.067002" elapsed="0.012508">Not Implemented</status>
-</kw>
-<kw name="Click Login Menu">
-<status status="NOT RUN" start="2026-05-11T15:07:52.079927" elapsed="0.001164"/>
-</kw>
-<kw name="Enter Login Username">
-<status status="NOT RUN" start="2026-05-11T15:07:52.082726" elapsed="0.001076"/>
-</kw>
-<kw name="Enter Login Password">
-<status status="NOT RUN" start="2026-05-11T15:07:52.085001" elapsed="0.001042"/>
-</kw>
-<kw name="Click Login Button">
-<status status="NOT RUN" start="2026-05-11T15:07:52.087222" elapsed="0.001106"/>
-</kw>
-<kw name="Validate Successful Login">
-<status status="NOT RUN" start="2026-05-11T15:07:52.089431" elapsed="0.000962"/>
-</kw>
-<kw name="Close Application">
-<status status="NOT RUN" start="2026-05-11T15:07:52.091650" elapsed="0.001116"/>
-</kw>
-<status status="FAIL" start="2026-05-11T15:07:52.060850" elapsed="0.033188">Not Implemented</status>
+<test id="s1-s1-s1-s1-s1-t1" name="Valid Login Test" line="11">
+<status status="FAIL" start="2026-05-12T15:39:15.864227" elapsed="0.003524">Parent suite setup failed:
+No keyword with name 'Open Browser To Login Page' found.</status>
 </test>
-<status status="FAIL" start="2026-05-11T15:07:51.966200" elapsed="0.138769"/>
+<test id="s1-s1-s1-s1-s1-t2" name="Verify Product Prices" line="18">
+<status status="FAIL" start="2026-05-12T15:39:15.880076" elapsed="0.008469">Parent suite setup failed:
+No keyword with name 'Open Browser To Login Page' found.</status>
+</test>
+<kw name="Close Browser Session" type="TEARDOWN">
+<msg time="2026-05-12T15:39:15.895901" level="FAIL">No keyword with name 'Close Browser Session' found.</msg>
+<status status="FAIL" start="2026-05-12T15:39:15.891953" elapsed="0.012137">No keyword with name 'Close Browser Session' found.</status>
+</kw>
+<status status="FAIL" start="2026-05-12T15:39:15.545179" elapsed="0.359937">Suite setup failed:
+No keyword with name 'Open Browser To Login Page' found.
+
+Also suite teardown failed:
+No keyword with name 'Close Browser Session' found.</status>
 </suite>
-<status status="FAIL" start="2026-05-11T15:07:51.962948" elapsed="0.149455"/>
+<status status="FAIL" start="2026-05-12T15:39:15.542704" elapsed="0.367268"/>
 </suite>
-<status status="FAIL" start="2026-05-11T15:07:51.959318" elapsed="0.206897"/>
+<status status="FAIL" start="2026-05-12T15:39:15.539356" elapsed="0.374154"/>
 </suite>
-<status status="FAIL" start="2026-05-11T15:07:51.955458" elapsed="0.213688"/>
+<status status="FAIL" start="2026-05-12T15:39:15.535481" elapsed="0.393585"/>
 </suite>
-<status status="FAIL" start="2026-05-11T15:07:51.880902" elapsed="0.331972"/>
+<status status="FAIL" start="2026-05-12T15:39:15.454739" elapsed="0.476614"/>
 </suite>
 <statistics>
 <total>
-<stat pass="0" fail="1" skip="0">All Tests</stat>
+<stat pass="0" fail="2" skip="0">All Tests</stat>
 </total>
 <tag>
 </tag>
 <suite>
-<stat name="Wipro traning" id="s1" pass="0" fail="1" skip="0">Wipro traning</stat>
-<stat name="Robot Framework" id="s1-s1" pass="0" fail="1" skip="0">Wipro traning.Robot Framework</stat>
-<stat name="RobotProject" id="s1-s1-s1" pass="0" fail="1" skip="0">Wipro traning.Robot Framework.RobotProject</stat>
-<stat name="Tests" id="s1-s1-s1-s1" pass="0" fail="1" skip="0">Wipro traning.Robot Framework.RobotProject.Tests</stat>
-<stat name="Login" id="s1-s1-s1-s1-s1" pass="0" fail="1" skip="0">Wipro traning.Robot Framework.RobotProject.Tests.Login</stat>
+<stat name="Wipro traning" id="s1" pass="0" fail="2" skip="0">Wipro traning</stat>
+<stat name="Robot Framework" id="s1-s1" pass="0" fail="2" skip="0">Wipro traning.Robot Framework</stat>
+<stat name="Assignment" id="s1-s1-s1" pass="0" fail="2" skip="0">Wipro traning.Robot Framework.Assignment</stat>
+<stat name="Tests" id="s1-s1-s1-s1" pass="0" fail="2" skip="0">Wipro traning.Robot Framework.Assignment.Tests</stat>
+<stat name="Smoke Tests" id="s1-s1-s1-s1-s1" pass="0" fail="2" skip="0">Wipro traning.Robot Framework.Assignment.Tests.Smoke Tests</stat>
 </suite>
 </statistics>
 <errors>
-<msg time="2026-05-11T15:07:51.968471" level="ERROR">Error in file 'C:\Wipro traning\Robot Framework\RobotProject\tests\login.robot' on line 2: Resource file '..\resources\keywords\login_keywords.robot' does not exist.</msg>
+<msg time="2026-05-12T15:39:15.546451" level="ERROR">Error in file 'C:\Wipro traning\Robot Framework\Assignment\Tests\smoke_tests.robot' on line 2: Resource file '..\Resources\common.resource' does not exist.</msg>
+<msg time="2026-05-12T15:39:15.548649" level="ERROR">Error in file 'C:\Wipro traning\Robot Framework\Assignment\Tests\smoke_tests.robot' on line 3: Resource file '..\Resources\login_page.resource' does not exist.</msg>
+<msg time="2026-05-12T15:39:15.558052" level="ERROR">Error in file 'C:\Wipro traning\Robot Framework\Assignment\Tests\smoke_tests.robot' on line 4: Resource file '..\Resources\cart_page.resource' does not exist.</msg>
 </errors>
 </robot>
